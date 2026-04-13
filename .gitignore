@@ -1,0 +1,30 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# Editor & IDE Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & Secrets (Best Practice)
+.env
+*.env
+.env.*
+
+# Temporary & Backup Files
+*.tmp
+*.bak
+*.log
+
+# Google Apps Script CLI (clasp) - Add if you ever use it
+.clasp.json
+.claspignore
+appsscript.json
+
+# Node modules (if you ever add testing/build tools)
+node_modules/
