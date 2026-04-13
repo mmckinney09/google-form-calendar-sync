@@ -39,15 +39,15 @@ const map = {
 };
 ```
 ### 4. Create Matching Calendars
-Ensure you have Google Calendars named exactly like:
-{SHORT_CODE}-iPad-{Cart-Number}
-Example: SCH_A-iPad-Cart-1
+- Ensure you have Google Calendars named exactly like:
+- {SHORT_CODE}-iPad-{Cart-Number}
+- Example: SCH_A-iPad-Cart-1
 
 ### 5. Set Up the Trigger
 In Apps Script:
-Click the ⏰ Triggers icon (left sidebar)
-Add a new trigger:
-Function: onFormSubmit
-Event source: From spreadsheet
-Event type: On form submit
-Save & authorize permissions
+1. Click the ⏰ Triggers icon (left sidebar)
+2. Add a new trigger:
+- Function: onFormSubmit
+- Event source: From spreadsheet
+- Event type: On form submit
+3. Save & authorize permissions
